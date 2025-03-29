@@ -135,7 +135,7 @@
     }
   </script>
 
-  <header>Welcome to <span style="color: #4caf50; font-weight: bold; font-style: italic;">Ayubu Mpolo</span>'s Nutrition Page</header>
+  <header>Welcome to <span style="color: purple; font-weight: bold; font-style: italic;">Ayubu Mpolo</span>'s Nutrition Page</header>
 
   <nav>
     <a href="#home">Home</a>
