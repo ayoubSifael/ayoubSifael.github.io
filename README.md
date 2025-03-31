@@ -137,6 +137,24 @@
 
   <header>Welcome to <span style="color: purple; font-weight: bold; font-style: italic;">Ayubu Mpolo</span>'s Nutrition Page</header>
 
+  <section id="introduction">
+    <h1 style="color: #4caf50; font-weight: bold;">Introduction</h1>
+    <p>
+      Nutrition plays a vital role in maintaining overall health and well-being. A balanced diet provides the body with the essential nutrients it needs to function effectively. These nutrients include carbohydrates, proteins, fats, vitamins, and minerals, which work together to support growth, repair tissues, and boost immunity.
+    </p>
+    <h2 style="color: #3498db;">What is a Balanced Diet?</h2>
+    <p>
+      A balanced diet is a diet that contains the proper proportions of carbohydrates, proteins, fats, vitamins, minerals, and water necessary to maintain good health. It ensures that the body gets the energy it needs while preventing deficiencies and reducing the risk of chronic diseases.
+    </p>
+    <h2 style="color: #3498db;">What is Nutrition?</h2>
+    <p>
+      Nutrition is the process by which the body takes in and utilizes food substances. It involves the intake of nutrients that are essential for growth, energy, and overall health. Proper nutrition is the foundation of a healthy lifestyle and is crucial for people of all ages.
+    </p>
+    <p>
+      At <span style="color: purple; font-weight: bold; font-style: italic;">Ayubu Mpolo</span>'s Nutrition Page, we aim to educate and guide individuals on how to make informed dietary choices for a healthier and happier life.
+    </p>
+  </section>
+
   <nav>
     <a href="#home">Home</a>
     <a href="#about">About</a>
