@@ -165,8 +165,7 @@
   <section id="home">
     <h1>Nutrition Information</h1>
     <div class="image-container">
-      <img src="images/healthy_food.jpg" alt="Healthy Food" />
-      <img src="images/nutritionist.jpg" alt="Nutritionist" />
+      <!-- Removed <img> tags -->
     </div>
     <p>
       It is important to eat a balanced diet to make the body strong and healthy. The body needs all the nutrients to function properly.
@@ -426,9 +425,7 @@
       <td>Produces more energy in the body</td>
       <td>Cassava, wheat, rice</td>
       <td class="food-images">
-        <img src="images/cassava.jpg" alt="Cassava" />
-        <img src="images/wheat.jpg" alt="Wheat" />
-        <img src="images/rice.jpg" alt="Rice" />
+        <!-- Removed <img> tags -->
       </td>
     </tr>
     <tr>
@@ -436,9 +433,7 @@
       <td>Builds body tissues</td>
       <td>Meat, eggs, milk</td>
       <td class="food-images">
-        <img src="images/meat.jpg" alt="Meat" />
-        <img src="images/eggs.jpg" alt="Eggs" />
-        <img src="images/milk.jpg" alt="Milk" />
+        <!-- Removed <img> tags -->
       </td>
     </tr>
     <tr>
@@ -446,8 +441,7 @@
       <td>Stores energy in the body</td>
       <td>Oil, butter</td>
       <td class="food-images">
-        <img src="images/oil.jpg" alt="Oil" />
-        <img src="images/butter.jpg" alt="Butter" />
+        <!-- Removed <img> tags -->
       </td>
     </tr>
     <tr>
@@ -455,8 +449,7 @@
       <td>Helps to fight against diseases</td>
       <td>Orange, carrot</td>
       <td class="food-images">
-        <img src="images/orange.jpg" alt="Orange" />
-        <img src="images/carrot.jpg" alt="Carrot" />
+        <!-- Removed <img> tags -->
       </td>
     </tr>
     <tr>
@@ -464,8 +457,7 @@
       <td>Helps to build body tissues</td>
       <td>Iron, calcium</td>
       <td class="food-images">
-        <img src="images/iron.jpg" alt="Iron" />
-        <img src="images/calcium.jpg" alt="Calcium" />
+        <!-- Removed <img> tags -->
       </td>
     </tr>
   </table>
@@ -540,7 +532,7 @@
 <section id="about-ayubu">
   <h1 style="color: #4caf50; font-style: italic; font-weight: bold;">About <span style="color: #4caf50; font-weight: bold; font-style: italic;">Ayubu Mpolo</span></h1>
   <div class="image-container">
-    <img src="images/ayubu.jpg" alt="Ayubu Mpolo" />
+    <!-- Removed <img> tag -->
   </div>
   <p>
     <span style="color: #4caf50; font-weight: bold; font-style: italic;">Ayubu Mpolo</span> is a certified nutritionist with over 15 years of experience in helping people achieve a balanced diet and a healthy lifestyle.
