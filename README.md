@@ -7,29 +7,47 @@
   <title>Ayubu Mpolo - Nutritionist</title>
   <style>
     body {
-      background-color: lightblue;
+      background-color: #d0f0fd; /* Light blue background for a refreshing look */
       font-family: Arial, sans-serif;
-      color: darkyellow;
+      color: #333; /* Dark gray text for better readability */
+      padding-top: 60px; /* Adjust for fixed nav */
+      margin: 0; /* Remove extra margin */
     }
 
     header {
       background-color: #4caf50;
-      padding: 10px;
+      padding: 15px;
       text-align: center;
-      font-size: 24px;
+      font-size: 28px;
       color: white;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
     }
 
     nav {
-      margin: 20px;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: #4caf50;
+      z-index: 1000;
+      padding: 10px 0;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
       text-align: center;
     }
 
     nav a {
       margin: 0 15px;
       text-decoration: none;
-      color: #4caf50;
+      color: white;
       font-weight: bold;
+      font-size: 18px;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #ffeb3b; /* Highlight links on hover */
     }
 
     h1 {
@@ -39,7 +57,7 @@
       font-size: 36px;
       padding-bottom: 15px;
       letter-spacing: 2px;
-      /* Removed border-bottom */
+      border-bottom: 2px solid #4caf50; /* Add decorative underline */
     }
 
     h2 {
@@ -49,48 +67,60 @@
       margin-top: 25px;
       padding-left: 15px;
       font-weight: bold;
-      /* Removed border-left */
+      border-left: 4px solid #3498db; /* Add decorative left border */
+      padding-left: 10px;
     }
 
     h3 {
       color: #e67e22;
       font-size: 26px;
       margin-top: 20px;
-      font-style: normal;
-      text-decoration: overline;
+      font-style: italic;
+      text-decoration: underline;
       text-transform: capitalize;
     }
 
     p {
-      color: blue;
+      color: #333;
+      line-height: 1.6; /* Improve readability */
+      font-size: 18px;
     }
 
     table {
       width: 100%;
       border-collapse: collapse;
       margin: 20px 0;
+      background-color: white;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow */
     }
 
     table,
     th,
     td {
-      border: 1px solid black;
+      border: 1px solid #ddd;
     }
 
-    th,
+    th {
+      background-color: #4caf50;
+      color: white;
+      padding: 10px;
+      text-align: center;
+    }
+
     td {
       padding: 10px;
       text-align: left;
     }
 
     footer {
-      background-color: yellow;
-      padding: 0.5px; /* Further reduced padding */
+      background-color: #4caf50;
+      padding: 10px;
       text-align: center;
       color: white;
       position: fixed;
       width: 100%;
       bottom: 0;
+      font-size: 14px;
     }
 
     .image-container {
@@ -102,17 +132,53 @@
       width: 300px;
       height: auto;
       margin: 10px;
+      border: 2px solid #4caf50; /* Add border to images */
+      border-radius: 8px; /* Rounded corners */
     }
 
     .food-images img {
       width: 100px;
       height: auto;
       margin: 5px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
     }
 
     #faq h3 {
       text-decoration: underline;
-      /* Added underline for FAQ headings */
+      color: #4caf50; /* Match FAQ headings with theme */
+    }
+
+    #back-to-top {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #4caf50;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 5px;
+      cursor: pointer;
+      display: none;
+      z-index: 1000;
+      font-size: 16px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add shadow */
+    }
+
+    #back-to-top:hover {
+      background-color: #45a049;
+    }
+
+    section {
+      padding: 20px;
+      margin: 20px auto;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+    }
+
+    html {
+      scroll-behavior: smooth;
     }
   </style>
 </head>
@@ -121,6 +187,7 @@
   <script>
     window.onscroll = function () {
       myFunction();
+      toggleBackToTopButton();
     };
 
     var header = document.querySelector("header");
@@ -133,11 +200,31 @@
         header.classList.remove("sticky");
       }
     }
+
+    const backToTopButton = document.getElementById("back-to-top");
+
+    function toggleBackToTopButton() {
+      if (window.pageYOffset > 300) {
+        backToTopButton.style.display = "block";
+      } else {
+        backToTopButton.style.display = "none";
+      }
+    }
+
+    backToTopButton.addEventListener("click", function () {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
   </script>
 
-  <header>Welcome to <span style="color: purple; font-weight: bold; font-style: italic;">Ayubu Mpolo</span>'s Nutrition Page</header>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+    <a href="#faq">FAQ</a>
+  </nav>
 
   <section id="introduction">
+    <header>Welcome to <span style="color: purple; font-weight: bold; font-style: italic;">Ayubu Mpolo</span>'s Nutrition Website</header>
     <h1 style="color: #4caf50; font-weight: bold;">Introduction</h1>
     <p>
       Nutrition plays a vital role in maintaining overall health and well-being. A balanced diet provides the body with the essential nutrients it needs to function effectively. These nutrients include carbohydrates, proteins, fats, vitamins, and minerals, which work together to support growth, repair tissues, and boost immunity.
@@ -154,13 +241,6 @@
       At <span style="color: purple; font-weight: bold; font-style: italic;">Ayubu Mpolo</span>'s Nutrition Page, we aim to educate and guide individuals on how to make informed dietary choices for a healthier and happier life.
     </p>
   </section>
-
-  <nav>
-    <a href="#home">Home</a>
-    <a href="#about">About</a>
-    <a href="#contact">Contact</a>
-    <a href="#faq">FAQ</a>
-  </nav>
 
   <section id="home">
     <h1>Nutrition Information</h1>
@@ -546,6 +626,8 @@
   <p><strong><span style="color: rgb(189, 9, 174); font-size: 18px; font-weight: bold;">Location:</span></strong> Dar es Salaam, TZ</p>
   <p><strong>Phone:</strong> +255 773 661 172</p>
 </section>
+
+<button id="back-to-top">Back to Top</button>
 
 </body>
 
