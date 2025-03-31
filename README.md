@@ -550,7 +550,7 @@
 </body>
 
 <footer>
-  <p>&copy; 2025 <span style="color: #4caf50; font-weight: bold; font-style: italic;">Ayubu Mpolo</span> - Nutritionist | Email: <a href="mailto:mpoloayubu@nutrition.com" style="color: rgb(243, 84, 222);">mpoloayubu@nutrition.com</a></p>
+  <p>&copy; 2025 <span style="color: #4caf50; font-weight: bold; font-style: italic;">Ayubu Mpolo</span> - Nutritionist | Email: <a href="mailto:mpoloayubu@gmail.com" style="color: rgb(243, 84, 222);">mpoloayubu@gmail.com</a></p>
 </footer>
 
 </html>
