@@ -218,7 +218,7 @@
 
   <nav>
     <a href="#home">Home</a>
-    <a href="#about">About</a>
+    <a href="#about-ayubu">About</a>
     <a href="#contact">Contact</a>
     <a href="#faq">FAQ</a>
   </nav>
@@ -567,6 +567,34 @@
   <p>Incorporating at least 30 minutes of physical activity into your daily routine can significantly improve your overall health and well-being.</p>
 </section>
 
+<section id="about-ayubu">
+  <h1 style="color: #4caf50; font-style: italic; font-weight: bold;">About <span style="color: #4caf50; font-weight: bold; font-style: italic;">Ayubu Mpolo</span></h1>
+  <div class="image-container">
+    <!-- Removed <img> tag -->
+  </div>
+  <p>
+    <span style="color: #4caf50; font-weight: bold; font-style: italic;">Ayubu Mpolo</span> is a certified nutritionist with over 15 years of experience in helping people achieve a balanced diet and a healthy lifestyle.
+  </p>
+  <p>
+    He specializes in creating personalized nutrition plans, conducting workshops, and educating communities about the importance of healthy eating habits.
+  </p>
+  <p>
+    <span style="color: #4caf50; font-weight: bold; font-style: italic;">Ayubu Mpolo</span> is passionate about promoting wellness and empowering individuals to make informed dietary choices for a healthier future.
+  </p>
+  <p><strong><span style="color: rgb(189, 9, 174); font-size: 18px; font-weight: bold;">Location:</span></strong> Dar es Salaam, TZ</p>
+  <p><strong>Phone:</strong> +255 773 661 172</p>
+</section>
+
+<section id="contact">
+  <h1 style="color: #4caf50; font-weight: bold;">Contact</h1>
+  <p>If you have any questions or need assistance, feel free to reach out:</p>
+  <ul>
+    <li><strong>Phone:</strong> +255 773 661 172</li>
+    <li><strong>Email:</strong> <a href="mailto:mpoloayubu@gmail.com" style="color: #3498db;">mpoloayubu@gmail.com</a></li>
+    <li><strong>Location:</strong> Dar es Salaam, TZ</li>
+  </ul>
+</section>
+
 <section id="faq">
   <h1>Frequently Asked Questions</h1>
   <h3>What is a balanced diet?</h3>
@@ -609,30 +637,12 @@
   <p>Good sources of healthy fats include avocados, olive oil, nuts, seeds, and fatty fish like salmon.</p>
 </section>
 
-<section id="about-ayubu">
-  <h1 style="color: #4caf50; font-style: italic; font-weight: bold;">About <span style="color: #4caf50; font-weight: bold; font-style: italic;">Ayubu Mpolo</span></h1>
-  <div class="image-container">
-    <!-- Removed <img> tag -->
-  </div>
-  <p>
-    <span style="color: #4caf50; font-weight: bold; font-style: italic;">Ayubu Mpolo</span> is a certified nutritionist with over 15 years of experience in helping people achieve a balanced diet and a healthy lifestyle.
-  </p>
-  <p>
-    He specializes in creating personalized nutrition plans, conducting workshops, and educating communities about the importance of healthy eating habits.
-  </p>
-  <p>
-    <span style="color: #4caf50; font-weight: bold; font-style: italic;">Ayubu Mpolo</span> is passionate about promoting wellness and empowering individuals to make informed dietary choices for a healthier future.
-  </p>
-  <p><strong><span style="color: rgb(189, 9, 174); font-size: 18px; font-weight: bold;">Location:</span></strong> Dar es Salaam, TZ</p>
-  <p><strong>Phone:</strong> +255 773 661 172</p>
-</section>
-
 <button id="back-to-top">Back to Top</button>
 
 </body>
 
 <footer>
-  <p>&copy; 2025 <span style="color: #4caf50; font-weight: bold; font-style: italic;">Ayubu Mpolo</span> - Nutritionist | Email: <a href="mailto:mpoloayubu@gmail.com" style="color: rgb(243, 84, 222);">mpoloayubu@gmail.com</a></p>
+  <p>&copy; 2025 <span style="color: yellow; font-weight: bold; font-style: italic;">Ayubu Mpolo</span> - Nutritionist | Email: <a href="mailto:mpoloayubu@gmail.com" style="color: rgb(243, 84, 222);">mpoloayubu@gmail.com</a></p>
 </footer>
 
 </html>
